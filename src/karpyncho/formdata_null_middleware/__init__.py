@@ -1,4 +1,12 @@
-class FormDataNullMiddleware:
+"""
+FormDataNullMiddleware Middleware to handle null strings in formdata
+"""
+
+
+class FormDataNullMiddleware:  # pylint: disable=too-few-public-methods
+    """
+    FormDataNullMiddleware Middleware to handle null strings in formdata
+    """
     def __init__(self, get_response):
         self.get_response = get_response
 
