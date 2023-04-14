@@ -1,2 +1,2 @@
-# form-data-null-middleware
-Django middleware to catch "null" string in form-data and transform it to None
+# Karpyncho FormData Null Middleware
+Django middleware to catch "null" string in FormData and transform it to None
